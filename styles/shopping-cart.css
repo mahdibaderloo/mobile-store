@@ -1,0 +1,152 @@
+:root {
+  --dark: #333;
+  --green: #3faf7b;
+  --grey: #ffffff99;
+  --white: #fff;
+  --green-light: #79a89280;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px */
+}
+
+*, *::after , *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'NotoSansArabic';
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.shopping-cart {
+  width: 50%;
+  /* height: 85vh; */
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px var(--green) , -2px -2px 5px rgb(0, 0, 0);
+  border-radius: 3rem;
+}
+
+.shopping-cart__logo {
+  width: 40%;
+  margin: 2rem;
+}
+
+.shopping-cart__logo-img {
+  width: 100%;
+}
+
+.shopping-cart__box {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: 90%;
+}
+
+.shopping-cart__icon-box {
+  font-size: 10rem;
+  padding: 3rem;
+}
+
+.shopping-cart__icon {
+  color: var(--green);
+}
+
+.shopping-cart__caption {
+  color: rgb(221, 231, 226);
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.shopping-cart__price-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 1rem;
+  color: rgb(221, 231, 226);
+  font-size: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1.5rem;
+  height: 5rem;
+  padding: 2rem;
+}
+
+.shopping-cart__price-title {
+  font-weight: bold;
+}
+
+.shopping-cart__price {
+  font-weight: bold;
+}
+
+.shopping-cart__discount-box {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1.5rem;
+  width: 90%;
+  height: 20%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.shopping-cart__discount-title {
+  color: rgb(221, 231, 226);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.shopping-cart__discount-number{
+  color: var(--green);
+}
+
+.shopping-cart__discount-info {
+  width: 95%;
+  background-color: var(--grey);
+  height: 10px;
+  border-radius: 10px;
+}
+
+.shopping-cart__discount {
+  width: 2%;
+  height: 100%;
+  background-color: var(--green);
+  border-radius: 1rem;
+}
+
+.shopping-cart__btn {
+  margin-top: 1rem;
+  width: 90%;
+  height: 10%;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  font-family: 'NotoSansArabic';
+  font-size: 2rem;
+  background-color: var(--green);
+  color: rgb(221, 231, 226);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.shopping-cart__btn:hover {
+  background-color: rgb(19, 116, 70);
+  color: var(--white);
+}

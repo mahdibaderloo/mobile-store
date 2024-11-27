@@ -1,0 +1,134 @@
+:root {
+  --dark: #333;
+  --green: #3faf7b;
+  --grey: #ffffff99;
+  --white: #fff;
+  --green-light: #79a89280;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px */
+}
+
+*, *::after , *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'NotoSansArabic';
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.account {
+  width: 50%;
+  /* height: 80vh; */
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 2px 2px 5px var(--green) , -2px -2px 5px rgb(0, 0, 0);
+  border-radius: 3rem;
+}
+
+.account__logo {
+  width: 50%;
+  margin: 2rem;
+}
+
+.account__logo-img {
+  width: 100%;
+}
+
+.account__box {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: 90%;
+  box-shadow: 1px 1px 5px rgb(115, 187, 153) , -2px -2px 5px rgb(0, 0, 0);
+}
+
+.account__icon-box {
+  font-size: 10rem;
+  padding: 3rem;
+}
+
+.account__icon {
+  color: var(--green);
+}
+
+.account__caption {
+  color: rgb(221, 231, 226);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.account__form {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.account__input {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  background-color: transparent;
+  height: 50px;
+  padding: 0.5rem;
+  color: var(--green);
+  font-family: 'NotoSansArabic';
+  width: 100%;
+  border-radius: 1.8rem;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.account__signup {
+  color: rgb(221, 231, 226);
+  margin: 2rem 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.account__signup-link {
+  color: var(--green);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.account__signup-link:hover {
+  color: rgb(19, 116, 70);
+
+}
+
+.account__btn {
+  margin-top: 1rem;
+  width: 90%;
+  height: 14%;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  font-family: 'NotoSansArabic';
+  font-size: 2rem;
+  background-color: var(--green);
+  color: rgb(221, 231, 226);
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #222222;
+}
+
+.account__btn:hover {
+  background-color: rgb(19, 116, 70);
+  color: var(--white);
+}

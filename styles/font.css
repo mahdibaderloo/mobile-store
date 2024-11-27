@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'NotoSansArabic';
+  src: url(../fonts/NotoSansArabic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Archivo-Black';
+  src: url(../fonts/Archivo-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url(../fonts/Roboto-Regular.ttf);
+}

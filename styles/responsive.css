@@ -1,0 +1,147 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 137rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .main__tab-pic {
+    width: 45%;
+  }
+  .main__tab-caption {
+    padding: 15rem 0;
+  }
+  .main__tab-title {
+    font-size: 2.5rem;
+  }
+  .main__tab-description {
+    font-size: 1.3rem;
+  }
+  .main__tab-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  *,
+  *::after,
+  *::after {
+    cursor: default;
+  }
+  .main__tab:hover .main__tab-pic {
+    transform: translateY(0) scale(1) skew(0deg);
+  }
+  .main__tab-pic {
+    width: 50%;
+  }
+  .account,
+  .shopping-cart {
+    width: 85%;
+    height: fit-content;
+  }
+  .account__caption,
+  .account__signup,
+  .shopping-cart__caption,
+  .shopping-cart__discount-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__left {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__center {
+    width: 10rem;
+    margin-left: 2rem;
+  }
+  .nav {
+    width: 50%;
+  }
+  .main__tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__tab-caption {
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main__tab-title {
+    font-size: 1.5rem;
+  }
+  .main__tab-description {
+    font-size: 1rem;
+  }
+  .main__tab-text {
+    font-size: 1.2rem;
+  }
+  .main__tab-btn,
+  .main__tab-text,
+  .main__tab-description,
+  .main__tab-icon {
+    color: var(--grey);
+  }
+  .main__tab-btn::before,
+  .main__tab-btn::after {
+    background-color: var(--grey);
+  }
+  .discount__title {
+    font-size: 1.8rem;
+  }
+  .discount__text {
+    font-size: 1.4rem;
+    display: none;
+  }
+  .discount__form {
+    width: 100%;
+  }
+  .discount__input {
+    letter-spacing: normal;
+  }
+  .discount__btn {
+    padding: 0.5rem 1.5rem;
+  }
+  .discount__hint {
+    font-size: 1.2rem;
+  }
+  .footer__information-subtitle {
+    display: none;
+  }
+  .footer__information {
+    margin-top: 0;
+  }
+  .footer__help-email {
+    font-size: 1.4rem;
+  }
+  .footer__logo {
+    width: 30%;
+  }
+  .footer__share-box {
+    justify-content: center;
+    width: 100%;
+  }
+  .footer__discount {
+    display: none;
+  }
+  .copy-right {
+    flex-direction: column;
+  }
+  .shopping-cart__price-title {
+    display: none;
+  }
+  .shopping-cart__price {
+    font-size: 1.6rem;
+  }
+}
