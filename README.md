@@ -5,7 +5,7 @@
 <br>
 <br>
 
-> This project is full responsive and you can use it every devices 😉
+> This project is full responsive and you can use it on any devices 😉
 >
 >Check this [URL](https://mahdibaderloo.github.io/mobile-store/) to see this repo ❤️
 
