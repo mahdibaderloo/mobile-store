@@ -1,6 +1,6 @@
 <h1>
-  My first project (Mobile Store)
   <img src="https://raw.githubusercontent.com/mahdibaderloo/mobile-store/86fef490dbe1819da3e51f122de02aa2f9dab747/images/online-shop-logo.svg" width="60px">
+  My first project (Mobile Store)
 </h1>
 
 <br>
